@@ -1,0 +1,11 @@
+Super Admin password:
+
+INSERT INTO users (name, email, password, role)
+VALUES ('Super Admin', 'MuhammadFarooq@weather.com', 'inconsistent', 'super_admin');
+
+
+super_admin.php → Full CRUD for users & sub-admins
+
+admin_panel.php → CRUD for users only
+
+user_home.php → Basic forecast interface (read-only)
